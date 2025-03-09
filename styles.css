@@ -1,0 +1,98 @@
+/* remove thic comment to add @import font or CSS variables at the top of this file */
+* {
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 16px;
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+    line-height: 20px;
+    text-indent: 16px;
+
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+  
+  aside { /*Top course choices */
+    float: left;
+    width: 30%;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    border-left: 5px solid #a66;
+    line-height: 50px;
+
+    li{
+        border:  2px solid #a66;
+        border-radius: 4px;
+        text-align: center;
+        color: white;
+        margin: 10px;
+        justify-content: center;
+        padding: 2px 5px 2px 5px;
+    }
+    li:hover{
+        background-color: #a5c300;
+      }
+  }
+
+  footer {
+    clear: both;
+    font-size: 10px;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+ 
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR styling/typesetting CSS code BELOW HERE */
+  header{
+    text-align: center;
+    letter-spacing: 3px;
+
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+
+  a:visited{
+    color: #a5c300;
+  }
+  a:link {
+    color: #AA336A;
+  }
+  a:hover {
+    background: #a5c300;
+  }
+  a:focus{
+    color: #a66;
+  }
